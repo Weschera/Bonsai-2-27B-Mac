@@ -1,0 +1,8 @@
+{"tag": "mini-m4-pq2_0", "task": "prose", "rep": 0, "decode_tps": 10.703493813712827, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 34.67745679200743, "total": 64.48080937500345, "prompt_tokens": 2097}
+{"tag": "mini-m4-pq2_0", "task": "prose", "rep": 1, "decode_tps": 10.565533031196145, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 466.86164683298557, "total": 497.05416045800666, "prompt_tokens": 2097}
+{"tag": "mini-m4-pq2_0", "task": "prose", "rep": 2, "decode_tps": 10.613128207376045, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 338.93380212501506, "total": 368.990915708011, "prompt_tokens": 2097}
+== mini-m4-pq2_0 prose: mean 10.6 tok/s (min 10.6 / max 10.7, n=3)
+{"tag": "mini-m4-pq2_0", "task": "code", "rep": 0, "decode_tps": 10.592187290139503, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 55.67242962500313, "total": 85.78896658399026, "prompt_tokens": 2379}
+{"tag": "mini-m4-pq2_0", "task": "code", "rep": 1, "decode_tps": 10.491509084498674, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 46.34568570900592, "total": 76.75122579201707, "prompt_tokens": 2379}
+{"tag": "mini-m4-pq2_0", "task": "code", "rep": 2, "decode_tps": 10.568435696216975, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 58.931891332991654, "total": 89.11611245799577, "prompt_tokens": 2379}
+== mini-m4-pq2_0 code: mean 10.6 tok/s (min 10.5 / max 10.6, n=3)

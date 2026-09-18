@@ -18,10 +18,13 @@ prompts, 3 reps each (`bench-chat.py`, mean; min–max in `results/*.json`).
 |---|---|---|---:|---:|---:|
 | Mac Studio M4 Max, 128 GB | **PQ2_0** (recommended) | 7.2 GB | **34.5** | **34.3** | 242 |
 | Mac Studio M4 Max, 128 GB | PTQ1_0 | 5.9 GB | 31.2 | 31.1 | 205 |
-| Mac mini M4 (10-core GPU), 24 GB | PQ2_0 | 7.2 GB | 11.0* | — | 33* |
+| Mac mini M4 (10-core GPU), 24 GB | PQ2_0 | 7.2 GB | 10.6† | 10.6† | 33* |
 
-\* Mini row is from the qualification prompt (server `timings`, 145 tokens), not the
-3-rep ladder — the ladder is queued behind its Spark Bench run and will replace this.
+\* Mini prefill is from the idle qualification prompt (server `timings`).
+† Mini decode is the 3-rep ladder measured **while its Spark Bench run shared the GPU**
+(min 10.5 / max 10.7); idle qualification was 11.0. The ladder's TTFTs in
+`results/mini-m4-pq2_0.json` are queueing artifacts from that contention, not prefill —
+a clean rerun replaces this row when the benchmark finishes.
 
 For scale, on the **same Studio** our full-precision Qwen3.8-27B recipe
 (oMLX + ANE prefill + native MTP k=3) does 53.3 prose / 72.1 code. Bonsai 2 is
