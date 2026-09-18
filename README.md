@@ -49,7 +49,17 @@ same-contract scores on our leaderboard: Qwen3.8-27B 4-bit MTP on this Studio �
 Flash EXL3 TP2 on 2 DGX Sparks 89.6, Qwen3.8 Flash-Next NVFP4 on 1 Spark 91.9. Bonsai 2
 lands ~7–10 points under the full-precision 27B class, in a file a quarter the size.
 
-Mac mini Spark Bench is running now; its report lands in `results/spark-bench-mini/`.
+### Quality: Spark Bench v6.8.3, Mac mini
+
+Same contract, same weights, via the SSH tunnel:
+
+- **TrueScore 81.2 / 100 — grade B.** Capability 76.6, Operational 63.1.
+- **Pass@1 90.8 %, Pass@K 82.9 % — identical to the Studio.** Same scenarios pass and
+  fail on both machines; the TrueScore gap is the Operational (latency) component.
+- Median turn latency **22.2 s vs 6.1 s** on the Studio — the 3.1–3.6× bandwidth ratio,
+  showing up as wall-clock.
+
+Full report: [`results/spark-bench-mini/`](results/spark-bench-mini/).
 
 ## Recipe
 
@@ -130,7 +140,7 @@ Spark Bench: [Weschera/spark-bench](https://github.com/Weschera/spark-bench) at
 - `bench-chat.py` — the throughput harness (thinking flag added).
 - `results/studio-m4max-pq2_0.{json,log}`, `results/studio-m4max-ptq1_0.{json,log}` — raw ladder.
 - `results/spark-bench-studio/` — Spark Bench v6.8.3 report (md + html) and per-trial CSV.
-- `results/spark-bench-mini/` — same for the Mac mini (pending).
+- `results/spark-bench-mini/` — same for the Mac mini.
 - `evidence/start_llama_server.sh.upstream` — the demo's launcher as tested.
 
 ## Credits
