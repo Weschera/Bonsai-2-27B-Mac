@@ -1,0 +1,80 @@
+[
+  {
+    "tag": "studio-m4max-ptq1_0",
+    "task": "prose",
+    "rep": 0,
+    "decode_tps": 31.19848821217777,
+    "gen_tokens": 320,
+    "n_chunks": 320,
+    "usage_completion_tokens": 320,
+    "ttft": 10.262587665987667,
+    "total": 20.4874420829874,
+    "prompt_tokens": 2097,
+    "text_head": "Token generation in large language models (LLMs) is fundamentally a two-phase pr"
+  },
+  {
+    "tag": "studio-m4max-ptq1_0",
+    "task": "prose",
+    "rep": 1,
+    "decode_tps": 31.18508085209471,
+    "gen_tokens": 320,
+    "n_chunks": 320,
+    "usage_completion_tokens": 320,
+    "ttft": 10.24187045902363,
+    "total": 20.47112083400134,
+    "prompt_tokens": 2097,
+    "text_head": "Token generation in large language models (LLMs) is fundamentally a sequential p"
+  },
+  {
+    "tag": "studio-m4max-ptq1_0",
+    "task": "prose",
+    "rep": 2,
+    "decode_tps": 31.186051614163862,
+    "gen_tokens": 320,
+    "n_chunks": 320,
+    "usage_completion_tokens": 320,
+    "ttft": 10.245159750018502,
+    "total": 20.47409170801984,
+    "prompt_tokens": 2097,
+    "text_head": "Token generation in large language models (LLMs) is fundamentally a two-phase pr"
+  },
+  {
+    "tag": "studio-m4max-ptq1_0",
+    "task": "code",
+    "rep": 0,
+    "decode_tps": 31.14319176348677,
+    "gen_tokens": 320,
+    "n_chunks": 320,
+    "usage_completion_tokens": 320,
+    "ttft": 11.608609250019072,
+    "total": 21.85161845802213,
+    "prompt_tokens": 2379,
+    "text_head": "```python\nclass InventoryLedger:\n    def __init__(self, warehouse_id, clock):\n  "
+  },
+  {
+    "tag": "studio-m4max-ptq1_0",
+    "task": "code",
+    "rep": 1,
+    "decode_tps": 31.084503239317748,
+    "gen_tokens": 320,
+    "n_chunks": 320,
+    "usage_completion_tokens": 320,
+    "ttft": 11.618546499987133,
+    "total": 21.88089483298245,
+    "prompt_tokens": 2379,
+    "text_head": "```python\nclass InventoryLedger:\n    def __init__(self, warehouse_id, clock):\n  "
+  },
+  {
+    "tag": "studio-m4max-ptq1_0",
+    "task": "code",
+    "rep": 2,
+    "decode_tps": 31.06147137703531,
+    "gen_tokens": 320,
+    "n_chunks": 320,
+    "usage_completion_tokens": 320,
+    "ttft": 11.639027333003469,
+    "total": 21.908985125017352,
+    "prompt_tokens": 2379,
+    "text_head": "```python\nclass InventoryLedger:\n    def __init__(self, warehouse_id, clock):\n  "
+  }
+]

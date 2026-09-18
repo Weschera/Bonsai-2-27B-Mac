@@ -1,0 +1,8 @@
+{"tag": "studio-m4max-pq2_0", "task": "prose", "rep": 0, "decode_tps": 35.48621006955684, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 8.65695712500019, "total": 17.64636454198626, "prompt_tokens": 2097}
+{"tag": "studio-m4max-pq2_0", "task": "prose", "rep": 1, "decode_tps": 34.03430366311981, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 8.6638269170071, "total": 18.03672324999934, "prompt_tokens": 2097}
+{"tag": "studio-m4max-pq2_0", "task": "prose", "rep": 2, "decode_tps": 33.874866912925604, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 8.672944666992407, "total": 18.089955834002467, "prompt_tokens": 2097}
+== studio-m4max-pq2_0 prose: mean 34.5 tok/s (min 33.9 / max 35.5, n=3)
+{"tag": "studio-m4max-pq2_0", "task": "code", "rep": 0, "decode_tps": 33.82633523139806, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 9.829465082992101, "total": 19.259987124998588, "prompt_tokens": 2379}
+{"tag": "studio-m4max-pq2_0", "task": "code", "rep": 1, "decode_tps": 34.66083344262125, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 9.96302845797618, "total": 19.166500166989863, "prompt_tokens": 2379}
+{"tag": "studio-m4max-pq2_0", "task": "code", "rep": 2, "decode_tps": 34.27908505140731, "gen_tokens": 320, "n_chunks": 320, "usage_completion_tokens": 320, "ttft": 10.028342499979772, "total": 19.334308499994222, "prompt_tokens": 2379}
+== studio-m4max-pq2_0 code: mean 34.3 tok/s (min 33.8 / max 34.7, n=3)
